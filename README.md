@@ -48,8 +48,8 @@ OPTIONS=" --log-driver=journald \
 
 
 # some images to test 
-**https://hub.docker.com/repository/docker/mmarcrr/fedora33-riscv64
-**https://hub.docker.com/repository/docker/mmarcrr/ubuntu-focal-riscv64
+- https://hub.docker.com/repository/docker/mmarcrr/fedora33-riscv64
+- https://hub.docker.com/repository/docker/mmarcrr/ubuntu-focal-riscv64
 
 
 ## todo
