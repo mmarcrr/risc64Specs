@@ -31,18 +31,7 @@ If you have network issues
 {
    "userland-proxy": false
 }
-```
-or
-```
-[root@fedora-riscv ~]# cat /etc/sysconfig/docker 
-# /etc/sysconfig/docker
 
-# Modify these options if you want to change the way the docker daemon runs
-OPTIONS=" --log-driver=journald \
-  --live-restore \
-  --default-ulimit nofile=1024:1024 \
-  --init-path /usr/libexec/docker/docker-init 
-"
 ```
 
 
